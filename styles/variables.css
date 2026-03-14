@@ -19,4 +19,7 @@
     --font-size-logo_span: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
     
     --text-stroke-color: #fff;
+
+    --animation-fill-color: #ff0000;
+    --contour-color: var(--accent-color);
 }

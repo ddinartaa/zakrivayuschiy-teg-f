@@ -160,18 +160,31 @@
 }
 
 .card__icon-button {
+  position: relative;
+  inline-size: 27px;
+  block-size: 24px;
+  padding: 0;
   background: none;
   border: 2px solid transparent;
-  padding: 5px 3.5px;
+  padding: 0;
   transition: border-color 0.3s ease;
+  flex-shrink: 0;
+  overflow: visible;
 }
 
 .like-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* inline-size: 39px;
+  block-size: 36px; */
+  transform: translate(-50%, -50%);
   display: block;
 }
 
 .card__like-button {
   padding: 10.7px 35px;
+  max-width: 130px;
 }
 
 .save-button {
