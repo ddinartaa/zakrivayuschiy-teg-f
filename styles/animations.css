@@ -10,6 +10,10 @@
 
 */
 
+.heart {
+  transform-origin: center;
+}
+
 .contour {
     transition: fill 0.1s linear;
 }
@@ -59,10 +63,6 @@
 
 .sparks {
     opacity: 0;
-}
-
-.like-icon {
-  transform-origin: center;
 }
 
 .like-icon.is-liked .heart {
