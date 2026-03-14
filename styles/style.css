@@ -220,3 +220,33 @@
     flex-direction: column;
   }
 }
+
+/* filters */
+
+.card__image_faded {
+  filter: saturate(30%);
+}
+
+.card__image_neon {
+  filter: hue-rotate(360deg) saturate(300%);
+}
+
+.card__image_contrast {
+  filter: contrast(30%);
+}
+
+.card__image_invert {
+  filter: invert(80%);
+}
+
+.card__image_sepia {
+  filter: sepia(90%);
+}
+
+.card__image_bright {
+  filter: brightness(500%);
+}
+
+.card__image_calm {
+  filter: contrast(60%) hue-rotate(300deg) sepia(20%);
+}
